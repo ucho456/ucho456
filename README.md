@@ -20,8 +20,8 @@
 - Typescript 3年
 
 #### フロントエンドフレームワーク
-- Next.js v13 1年
-- Vue.js v2 3年
+- Next.js 1年
+- Vue.js 3年
 
 #### バックエンドフレームワーク
 - Node.js (Express 3年, Nest.js 1年)
@@ -77,7 +77,7 @@ Javascript, Typescript, Vue.js v2, Node.js(FW: Express, ORM: Sequelize), MySQL, 
 Teams, Trello
 
 #### チーム構成
-PO1名、TL1名、コーダー4名のコーダー担当。
+PO1名、PM兼TL1名、コーダー4名のコーダー担当。
 
 #### 担当した役割
 基本設計・詳細設計・フロントエンド開発・バックエンド開発・コードレビューなどインフラ以外を担当していました。
