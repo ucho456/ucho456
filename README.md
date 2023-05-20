@@ -11,35 +11,23 @@
 |最終学歴|明治大学食料環境政策学科卒|
 |GitHub| <a src="https://github.com/ucho456" target="_blank">https://github.com/ucho456</a> |
 
-27歳の頃に異業種から転職してWebエンジニアになりました。
+<br /><br />
 
-## 保有スキルまとめ
-### 言語
-#### Javascript 4年, Typescript 3年
+## 保有スキル
+#### 言語
+###### Javascript 4年, Typescript 3年
 
-上記の業務経験の他、個人的にRubyとGoを触った事があります。
+#### フロントエンドフレームワーク
+###### Next.js v13 1年, Vue.js v2 3年
 
-### フロントエンドフレームワーク
-#### Next.js v13 1年, Vue.js v2 3年
+#### バックエンドフレームワーク
+###### Node.js (Express 3年, Nest.js 1年)
 
-上記の業務経験の他にReact.js v18, Nuxt.js v2を個人開発で使用した経験があります。 Next.jsで開発するのが一番得意で今後とも経験を積んでいきたいと考えています。
+#### データベース
+###### MySQL 3年, PostgreSQL 1年
 
-### バックエンドフレームワーク
-#### Node.js (Express 3年, Nest.js 1年)
-
-バックエンドもTypescriptをメインで使用して開発してきました。ts以外の言語での業務経験も今後積めたら良いなと考えています。
-
-### データベース
-#### MySQL 3年, PostgreSQL 1年, Radis
-
-RDBを使用して開発してきました。開発にはORMを使用していましたが、必要に応じてSQLも書けます。個人開発でFirestoreを使用した経験があります。
-
-### インフラ
-#### GCP
-
-一番弱いので今後伸ばしたいと考えています。業務ではCloud loggingやCloud shellを触ってバグ改修などを行っていた位です。個人開発でFirebaseの各種サービスやCloud Run, Pub Subを触った事があります。AWSは昔EC2, S3を触った事があります。
-
-
+#### インフラ
+###### GCP
 
 <div style="page-break-before:always"></div>
 <br /><br />
@@ -51,9 +39,9 @@ RDBを使用して開発してきました。開発にはORMを使用してい�
 ### 
 
 ### 技術スタック
-Typescript, Node.js(FW: Nest.js, ORM: Prisma), PostgreSQL, Docker, GCP
+Typescript, Node.js(FW: Nest.js, ORM: Prisma), Next.js, Storybook, PostgreSQL, Docker, GCP
 
-Slack, Jira, Notion, Miro, Box, Gather, Figma, Storybook
+Slack, Jira, Notion, Miro, Box, Gather, Figma
 
 ### 概要
 動物病院が業務に必要な機能がシームレスに使用できるクラウド型のレセプトコンピューターサービスの新規開発に携わっていました。主な機能として従業員の勤怠管理、スケジュール管理、予約、電子カルテ、会計、保険請求、データ分析などがあります。
@@ -62,12 +50,12 @@ Slack, Jira, Notion, Miro, Box, Gather, Figma, Storybook
 テックリード1名、コーダー4名の5名体制。
 
 ### 担当した役割
-設計・フロントエンド開発・バックエンド開発・コードレビューを担当しました。あまり厳密な開発体制を敷いていなかったのでテックリードの方が作成したデータ構造を元に
+バックエンド開発・フロントエンド設計、開発、コードレビューを担当しました。
 
 ### 発揮したバリュー
 ### 取り組み１：フロントエンドの設計
 #### 課題と背景
-１つの医院アカウントを複数の医師が使用するシステムの都合上、データをリアルタイムで共有する必要があった。当時その方法としてフロント側でCron処理を行い1分毎にリクエストを発行し、最新データを取得するという仕組みを採用していた為、以下のような問題が発生していた。
+OAuth2.0の認可サーバーのフロントエンド設計・開発を行いました。
 1. タイムラグが存在する為、その際にデータの整合性を保つ為にエラーを出す必要があった。
 2. 無駄なリクエストが発生しており、通信費用が嵩む。
 
